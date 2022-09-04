@@ -23,10 +23,11 @@ button {
 	margin: 10px auto 5px auto;
 	vertical-align: middle;
 	width: 70%;
+	height: 2em;
 	position: relative;
 	left: 15%;
 /*	height: 30px;*/
-	border: 1 px solid red;
+	border: 0px;
 	border-radius: 20pt;
 	background-color: pink;
 	font-family: 'Alumni Sans Pinstripe', sans-serif;
