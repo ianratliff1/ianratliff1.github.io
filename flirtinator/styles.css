@@ -1,0 +1,99 @@
+html {
+/*	background-image: url("img/freestocks-Y9mWkERHYCU-unsplash.jpeg");*/
+	min-height: 100%;
+	background-size: cover;
+	background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("img/freestocks-Y9mWkERHYCU-unsplash.jpeg");
+
+	
+}
+
+a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+	color: aliceblue
+}
+
+a:hover {
+	color: cadetblue;
+}
+
+button {
+	style: flex;
+	margin: 10px auto 5px auto;
+	vertical-align: middle;
+	width: 70%;
+	position: relative;
+	left: 15%;
+/*	height: 30px;*/
+	border: 1 px solid red;
+	border-radius: 20pt;
+	background-color: pink;
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+	font-size: 28px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: hotpink;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+h2 {
+/*	font-family: 'Alumni Sans Pinstripe', sans-serif;*/
+	text-align: center;
+	font-family: 'Merienda', cursive;	
+}
+
+h3 {
+	font-family: 'Alumni Sans Pinstripe', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+footer {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #E1E1E1;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(91,91,91,0.83);
+	width: 100%;
+	text-align: right;
+}
+
+#githubicon {
+	height: 25px;
+	vertical-align: middle;
+}
+
+#messageBox {
+	style: flex;
+	align-content: center;
+	margin: 0 auto;
+	justify-content: space-around;
+    width: 500px;
+/*    border: 1px solid black;*/
+    border-radius: 20px;
+/*	padding: 5px;*/
+	border: 0px;
+	background-color: peachpuff;
+	box-shadow: 0pt 0pt 40px black
+	
+}
+
+#flirtyMessage {
+	margin: 0 auto;
+	background-color: #B05153;
+	display: flex;
+	width: 100%;
+	color: white;
+/*	text-align: center;*/
+/*	padding: 5px 5px;*/
+	
+}
+
