@@ -20,7 +20,7 @@ function flirt() {
     const thisGreeting = randomize(greeting)
     const thisNoun = randomize(noun)
     const thisAction = randomize(action)
-    const thisTimeframe = randomize (action)
+    const thisTimeframe = randomize (timeframe)
     
     // messageBox.innerHTML=`${greetingIndex} ${nounIndex} ${actionIndex} ${timeframeIndex}`
     // messageBox.innerHTML=greeting.length
